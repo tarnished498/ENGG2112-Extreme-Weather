@@ -1,0 +1,13 @@
+Evaluation,Model,Hazard,Actual,Detected,Recall (%)
+Four-city holdout,Random Forest,heat_event,63,56,88.88888888888889
+Four-city holdout,Random Forest,heavy_rain_event,13,1,7.6923076923076925
+Four-city holdout,Logistic Regression,heat_event,63,52,82.53968253968254
+Four-city holdout,Logistic Regression,heavy_rain_event,13,2,15.384615384615385
+Four-city holdout,Direct forecast,heat_event,63,52,82.53968253968254
+Four-city holdout,Direct forecast,heavy_rain_event,13,1,7.6923076923076925
+Sydney exploratory,Random Forest,heat_event,2,2,100.0
+Sydney exploratory,Random Forest,heavy_rain_event,4,1,25.0
+Sydney exploratory,Logistic Regression,heat_event,2,2,100.0
+Sydney exploratory,Logistic Regression,heavy_rain_event,4,0,0.0
+Sydney exploratory,Direct forecast,heat_event,2,0,0.0
+Sydney exploratory,Direct forecast,heavy_rain_event,4,1,25.0

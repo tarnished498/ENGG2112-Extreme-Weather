@@ -1,0 +1,7 @@
+Evaluation,Model,Days,Actual extremes,Precision (%),Recall (%),Correct warnings,False alarms,Missed extremes,Correct normal,Both >=70%
+Four-city holdout,Random Forest,868,76,74.02597402597402,75.0,57,20,19,772,True
+Four-city holdout,Logistic Regression,868,76,70.12987012987013,71.05263157894737,54,23,22,769,True
+Four-city holdout,Direct forecast,868,76,85.48387096774194,69.73684210526315,53,9,23,783,False
+Sydney exploratory,Random Forest,228,6,60.0,50.0,3,2,3,220,False
+Sydney exploratory,Logistic Regression,228,6,40.0,33.33333333333333,2,3,4,219,False
+Sydney exploratory,Direct forecast,228,6,33.33333333333333,16.666666666666664,1,2,5,220,False
